@@ -1,0 +1,227 @@
+body{
+    background-image: url(./images/tunz.png);
+    background-size: cover;
+    scroll-behavior: smooth;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.Header{
+    text-align: center;
+    font-size: 35px;
+    font-family: sans-serif;
+    font-style: initial;
+    color: white;
+}
+
+.image-container{
+    width: 100%;
+    
+}
+.row-one, .row-two, .row-three{
+   
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    
+}
+.grid-item{
+    
+    width: 50%;
+    height: 800px;
+    border-radius: 20px;
+    margin: 15px;
+    box-shadow: 0 0 15px white;
+    transition: width 1s;
+}
+
+.grid-item:hover{
+    width: 80%;
+    height: 800px;
+}
+
+#ronaldo-one{
+    background-image: url(./images/12.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#ronaldo-two{
+    background-image: url(./images/13.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#ronaldo-three{
+    background-image: url(./images/14.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#ronaldo-four{
+    background-image: url(./images/15.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+#ronaldo-five{
+    background-image: url(./images/16.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#ronaldo-six{
+    background-image: url(./images/17.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#ronaldo-seven{
+    background-image: url(./images/18.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#ronaldo-eight{
+    background-image: url(./images/19.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#ronaldo-nine{
+    background-image: url(./images/20.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#ronaldo-ten{
+    background-image: url(./images/21.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#ronaldo-eleven{
+    background-image: url(./images/22.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#ronaldo-twelve{
+    background-image: url(./images/23.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#ronaldo-thirteen{
+    background-image: url(./images/24.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#ronaldo-fourteen{
+    background-image: url(./images/25.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#ronaldo-fifteen{
+    background-image: url(./images/26.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#ronaldo-sixteen{
+    background-image: url(./images/27.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#ronaldo-seventeen{
+    background-image: url(./images/28.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#ronaldo-eightteen{
+    background-image: url(./images/29.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#ronaldo-nine{
+    background-image: url(./images/20.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+
+@media only screen and (max-width:840px){
+    .row-one,.row-two,.row-three{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .grid-item{
+        width: 80%;
+        height: 800px;
+        transition: 1s;
+    }
+    .grid-item:hover{
+        width: 80%;
+        height: 800px;
+    }
+
+    .Header{
+        font-size: 20px;
+    }
+
+
+}
+
+@media only screen and (max-width:400px){
+    .row-one,.row-two,.row-three{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .grid-item{
+        width: 90%;
+        height: 600px;
+        transition: none;
+    }
+    .grid-item:hover{
+        width: 90%;
+        height: 600px;
+    }
+
+    .Header{
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    
+
+}
